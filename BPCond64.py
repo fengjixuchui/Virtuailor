@@ -5,6 +5,7 @@
 #    * register_vtable -> The register who points to the vtable
 #    * offset -> The offset of the relevant function from the vtable base pointer
 
+
 def get_fixed_name_for_object(address, prefix=""):
     """
     :param address: string, the object's address we want to calculate its offset
